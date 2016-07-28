@@ -1,5 +1,5 @@
 export class ButtonApi {
-    test() {
+    click() {
       alert('You clicked me');
     }
 }

@@ -3,11 +3,11 @@
   <head>
     <title><%- webpackConfig.metadata.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <meta charset="UTF-8">
     <base href="<%- webpackConfig.metadata.baseUrl %>">
     <!-- imported CSS are concatenated and added automatically -->
   </head>
-  <body>
+  <body aurelia-app="main">
     <div class="splash">
       <div class="message"><%- webpackConfig.metadata.title %></div>
       <i class="fa fa-spinner fa-spin"></i>
